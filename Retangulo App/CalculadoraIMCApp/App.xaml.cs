@@ -1,17 +1,11 @@
 ﻿
-namespace RectanguloApp
+using RectanguloApp;
+
+namespace CalculadoraIMCApp
 {
     public partial class App : Application
     {
-        public App()
-        {
-            InitializeComponent();
-        }
-
-        private void InitializeComponent()
-        {
-            throw new NotImplementedException();
-        }
+        public App() => InitializeComponent();
 
         protected override Window CreateWindow(IActivationState? activationState)
         {
