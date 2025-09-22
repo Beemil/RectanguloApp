@@ -25,11 +25,11 @@ namespace RectanguloApp.ViewModels
                 double.TryParse(_alturaText, out double h))
             {
                 var rectangulo = new Rectangulo { Base = b, Altura = h };
-                _resultado = $"El área es: {rectangulo.Base * rectangulo.Altura}";
+                Resultado = $"El área es: {rectangulo.Base * rectangulo.Altura}";
             }
             else
             {
-                _resultado = "Por favor ingrese valores válidos.";
+                Resultado = "Por favor ingrese valores válidos.";
             }
         }
     }
