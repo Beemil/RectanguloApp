@@ -1,4 +1,5 @@
-﻿namespace CalculadoraIMCApp
+﻿namespace RectanguloApp
+
 {
     public partial class AppShell : Shell
     {
